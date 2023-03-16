@@ -20,10 +20,14 @@ header {
     height: 35vh;
     align-items: center;
     justify-content: center;
+    padding-left: 10px;
 }
 section {
     border: 2px solid gray;
     background-color: rgb(2, 199, 176);
+    padding-left: 210px;
+    display: flex;
+    flex-direction:column;
 }
 footer {
     text-align: center;
@@ -31,11 +35,15 @@ footer {
     transform: translateX(150%)
 }
 img {
-    border-radius: 30%;
+    border-radius: 100%;
 }
 h2 {
     color:rgb(0, 68, 255);
 }
 aside {
-    background-color:cadetblue;
+    padding-left: 50px;
+    border: 30px;
+}
+article {
+    padding-left: 50px;
 }
