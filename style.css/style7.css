@@ -1,0 +1,80 @@
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+body {
+    background-color: lightgrey;
+}
+li {
+    margin-right: 40px;
+    display: inline;
+}
+img {
+    margin-top: 30px;
+    margin-left: 35%;
+    border-radius: 50%;
+}
+.contactInfo {
+    color: white;
+    background-color: darkslategrey;
+    border-radius: 7px;
+    margin-top: 30%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+h1 {
+    margin-left: 20%;
+    display: flex;
+    justify-content:center;
+}
+h4 {
+    margin-left: 20%;
+    display: flex;
+    justify-content:center;
+}
+.paragraph {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    border-radius: 7px;
+    margin-left: 55%;
+    display: flex;
+    justify-content:center;
+    height: 30%;
+    width: 35%;
+    background-color: darkslategray;
+    color: white;
+}
+article {
+    display: flex;
+    align-items:flex-wrap;
+    justify-content:center;
+    margin-left: 35%;
+}
+.container {
+    padding-top: 30px;
+    text-align:justify;
+    margin: 35px 0 20px 0 !important;
+    align-content: flex-end;
+    margin-bottom: 20px;
+  }
+.skills {
+    align-content: flex-end;
+    display:inline;
+    justify-content:center;
+}
+.experience {
+    padding-left: 60px;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+border-radius: 7px;
+margin-left: 55%;
+height: 30%;
+width: 35%;
+background-color: darkslategray;
+color: white;
+}
