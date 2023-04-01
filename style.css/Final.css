@@ -1,0 +1,53 @@
+.header {
+    display: grid;
+    justify-content: center;
+    background-color:darkslategrey;
+    background-size: contain;
+    background-position: top;
+           color:beige; 
+}
+
+a:hover {
+    background-color: rgb(75, 75, 218);
+    color: white;
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+.navbar {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: black;
+    color: antiquewhite;
+}
+
+.skills {
+    display:grid;
+    background-color:lightgrey;
+    justify-content:flex-start;
+}
+.Form {
+    background-color:lightgrey;
+    display:grid;
+    justify-content: center;
+
+}
+.Contact {
+    color: white;
+    background-color: darkslategrey;
+    border-radius: 7px;
+    margin-top: 3%;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap-reverse;
+}
+
+@media screen and (max-width: 320px) {
+    .body {
+        background-image: url(Images/f0a96d206a0662ece6bec84e19207b43.png);
+    }
+    .education {
+        
+        display: grid;
+        justify-content:right;
+    }
+}

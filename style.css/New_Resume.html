@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <header>
+        <!--Navbar for webpage-->
+    <div class="navbar">
+        <ul>
+            <li><a href="#education" style="color: black; font-size: 30px;">education</a></li>
+            <li><a href="#experience" style="color: black; font-size: 30px">experience</a></li>
+            <li><a href="#skills" style="color: black; font-size: 30px;">skills</a></li>
+        </ul>
+    </div>
+        <div class="header">
+            <h1>Jason September</h1>
+            <h1>Web designer</h1>
+            <picture>
+                <source srcset="Images/Jace3small.jpg" media="(max-width: 520px)">   
+                <source srcset="Images/Jace3medium.jpg" media="(max-width: 880px)">
+                <img src="Images/Jace3.jpg" alt="Image">
+            </picture>
+            <h1 style="font-size: 75px;"><b>Hello There</b></h1>
+            <h4><b>A lil about me</b></h4>
+            <p>I'm a 24 year old lab assisstant and or colour matcher at Flint Group in Paarden Eiland.I have been working there for the last 2 years now and I am currently studying online to become a software developer.</p>
+            <a href="#Contact Info">Contact Info</a>
+            <a href="https://github.com/JayceSeshan">github</a>
+        </div>
+    
+            
+    </header>
+</head>
+<body>
+    <section id="education">
+        <ul>
+            <div class="education">
+                <h2 id="education">Education</h2>
+                <h3>Qualifications 1</h3>
+            <li style="margin-bottom: -10px;"><b>School</b></li><p>Forest Heights High</p>
+            <li style="margin-bottom: -10px;"><b>Year</b></li><p>2016</p>
+            <li style="margin-bottom: -10px;"><b>highest grade</b></li><p>Grade 12</p>
+        </ul>
+            
+        <ul>
+        <h3 style="margin-top: 70px;">Qualification 2</h3>
+        <p><b>Intro to Web at</b><a href="http://codespace.co.za/">CodeSpace Academy</a></p>
+        </ul>
+        </div>
+    </section>
+<!---skill section that shows what I'm best skilled at--->
+    <section>
+        <div class="skills">
+            <h2 id="skills">Skills</h2>
+<!--Programming languages that I know-->
+            <h3>html</h3>
+            <progress value="9" max="10"></progress>
+            <h3>CSS</h3>
+            <progress value="9" max="10"></progress>
+            <h3>JavaScript</h3>
+            <progress value="3" max="10"></progress>
+<!--tools and software known by me-->
+            <h3>VS Code</h3>
+            <progress value="9" max="10"></progress>
+            <h3>github</h3>
+            <progress value="7" max="10"></progress>
+            <h3>Figma</h3>
+            <progress value="3" max="10"></progress>
+    </section>
+<!--job experiences-->
+    <section>
+        <ul>
+            <h2 id="experience">Experience</h2>
+        <h3>Job 1</h3>
+            <li><p>I worked at Spar in Kuilsriver as a Fruit and Veg handler for 7 months.</p></li>
+            <li><p style="margin-top: -10px;">My job was the restock on fresh fruits and vegatbles.</p></li>
+            <li><p style="margin-top: -10px;">I had to weigh and price the items customers chose from the stands.</p></li>
+        </ul>
+        <ul>
+            <h3 style="margin-bottom: -8px;">Job 2</h3>					
+            <li><p>I was a male nurse at Helpende Hande Old Age Home in Stikland for a month to complete my 200 hours for my nursing course and receive my certificate.</p>
+        </ul>
+        <ul>
+        <h3>Job 3</h3>
+        <li><p style="margin-bottom: -10px;">I worked as casier at Meatrite in Kuilsriver for a 13 months</p></li>
+        <li><p>I was an all rounder in the store meaning packet fresh stock on the shelves and also help make sausage stock.</p>
+        </ul>
+        <ul>
+        <h3>Job 4</h3>
+        <li><p style="margin-bottom: -10px;">I work for a paste ink factory called Flint Group which is located in Paarden Eiland.</p></li>
+        <li><p>I am a colour matcher in training and my job discription is lab assisstant</p></li>
+        </ul>
+    </section>
+<!--contact info and links to github and linkedIn account of my footer section-->   
+    <footer>
+        <div class="contactInfo">
+    
+            <ul>
+                <li><p><b>Phone number</b> : 0670660615</p></li>
+            </ul>
+            <ul>
+                <li><p><b>Email address</b>: septemberj626@gmail.com</p></li>
+            </ul>
+            <ul>	
+                <li><p><a href="http://linkedin.com">LinkedIn</a></p></li>
+            </ul>
+            <ul>
+                <li><p><a href="https://github.com/JayceSeshan">github</a></p></li>
+            </ul>
+        </div>
+        <div class="Form">
+            <h2>Forms</h2>
+            <h2>Contact Me</h2>
+            
+            <!--Forms-->
+            <form action="https://formsubmit.co/6463e509bb925f2418dac6eef7e13b19" method="POST">
+                <p>Name:</p><input type="text" name="name" placeholder="Name (required)" required min="4" max="16">
+                <p>Email:</p><input type="email" name="email" placeholder="Email Address (required)" required>
+                <p>Company Name:</p><input type="text" name="Compony Name" placeholder="Company Name (required)" required min="4" max="16">
+                <p>Please select the reason for your contact (required):</p>
+                <select name="_subject" id="contactReason" required _subject>
+                    <option value="">--Please choose an option--</option>
+                    <option value="Enquiry">Enquiry</option>
+                    <option value="Feedback">Feedback</option>
+                </select><input type="textarea" placeholder="Please put any further information here">
+                <!-- <input type="hidden" name="_next" value=""> this needs to be added once the page is hosted -->
+                <input type="text" name="_honey" style="display:none"></form>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
